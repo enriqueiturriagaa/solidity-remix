@@ -228,7 +228,7 @@
 						"type": "string"
 					}
 				],
-				"name": "setClimberId",
+				"name": "setClimberName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -343,11 +343,11 @@
 	},
 	"sources": {
 		"contracts/Yosemite.sol": {
-			"keccak256": "0x43b467fc43756d5aa874b6459dbcbaba53b752a67b8275b62083968d8ddc5190",
+			"keccak256": "0xcc3775e24d24be44152c4f0470f7dc668d7b4c5515eb435ae35afedd652debe2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8808affb55870d8808fdcdcab81a7605e511ba5ee45d1322b1a8137f3617a348",
-				"dweb:/ipfs/QmTURRnSxMhE9Tss3NotF8FkT27o3Ftw1d5o69m9uq1BkU"
+				"bzz-raw://1ab2599a7546ab0758a46455f36d0964db21c97414edd1afe0620ee16e55091a",
+				"dweb:/ipfs/QmYwrPYeeNBNshCcmG2Z33qgC31N8ru3Xtn5j44BGFEeUA"
 			]
 		}
 	},

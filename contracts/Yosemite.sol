@@ -12,7 +12,6 @@ contract Yosemite {
         setOtherClimbersId(owner);
     }
 
-
     address[] public contractManagers;
 
     mapping (address => uint) public climberId;
@@ -32,7 +31,7 @@ contract Yosemite {
 
 // CREATE ACCOUNTS SECTION (2 functions)---------------
 // Create Accounts function without allowing duplicates for contract caller to call (msg.sender) ✅
-    function setClimberId(string memory _name) public returns(string memory){
+    function setClimberName(string memory _name) public returns(string memory){
         if(!isMember[msg.sender]) {
             climberId[msg.sender] = (usersArr.length + 1);
             usersArr.push(msg.sender);
