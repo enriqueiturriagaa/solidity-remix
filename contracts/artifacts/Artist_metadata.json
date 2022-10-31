@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pieces",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pieceId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "pieceOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "pieceTitle",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Artist.sol": "Artist"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Artist.sol": {
+			"keccak256": "0x8767df27223091bb73119e779df206d33b397809e1b31451d9a85b2593308a75",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6fc2d18b2f63a8c0baa0b35de3ce3af75b24974811beed3f6b112b8b7ae3227f",
+				"dweb:/ipfs/QmXgQEs4n1Ghkp2Yy2Y7Kzud826qKSEmPNcwPp6ZmfSCAR"
+			]
+		}
+	},
+	"version": 1
+}
